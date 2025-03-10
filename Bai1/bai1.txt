@@ -1,0 +1,41 @@
+Phím tắt:
+    1. ctrl + j: mở đóng terminal
+    2. ctrl + b: mở đóng Explorer
+    3. ctrl + shift + e: chuyển con trỏ chuột giữa Explorer và editor
+Nội dung buổi học
+    0. Cấu trúc chương trình Java
+    1. Variable (biến)
+    2. Toán tử
+    3. Cấu trúc rẽ nhánh
+Nhập dữ liệu từ bàn phím 
+    1. B1: import java.util.Scanner;
+    2. B2: Scanner sc = new Scanner(System.in);
+    3. B3: Sử dụng các hàm có sẵn
+Các hàm toán học
+    1. Math.abs() 
+    2. Math.pow(số mũ, cơ số)
+    3. Math.sqrt()
+    4. Math.min(a, b); Math.max(a, b);
+    5. ceil, floor, round   
+
+
+import java.util.Scanner;
+import java.util.ArrayList;
+
+public class practice {
+    public static void xinChao(int a) {
+        a = 10;
+    }
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        // create Integer type ArrayList
+        ArrayList<Integer> arrayList = new ArrayList<>();
+        arrayList.add(1);
+        arrayList.add(2);
+        arrayList.add(3);
+        System.out.println(arrayList.size());
+    }
+}
+
+    
